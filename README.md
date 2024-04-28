@@ -47,3 +47,22 @@ You should have the following hardware and software ready:
 
    ```bash
    git clone [https://github.com/your-username/3D-Lidar-Scanning-and-Mapping-System.git](https://github.com/phanannie/3D-Lidar-Scanning-System.git)
+
+## Configuration
+
+Follow these steps to prepare the hardware and software for use:
+
+1. Configure `data_collect.py` with the correct parameters, such as the starting x-coordinate and the COM port for your microcontroller.
+2. Use Keil uVision5 to compile the code and flash it to the microcontroller.
+3. Ensure all connections between the microcontroller, stepper motor, and ToF sensor are secure.
+
+## Usage
+
+To collect and visualize data, follow these steps:
+
+1. Connect the microcontroller to your computer via USB.
+2. Open the Keil project and flash the program to the microcontroller.
+3. After flashing, press the RESET button on the microcontroller.
+4. Press the J1 button on the MSP microcontroller to start the scanning process.
+5. Execute the `data_collect.py` script to begin data acquisition.
+6. Once data collection is complete, run the `3d_plot.py` script to visualize the collected data as a 3D model.
