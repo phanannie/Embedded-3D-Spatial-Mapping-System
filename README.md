@@ -1,4 +1,4 @@
-# 3D Lidar Scanning and Mapping System
+# Embedded 3D Spatial Mapping System
 
 Welcome to the Advanced 3D Lidar Mapping System project repository. This project was developed as part of an Engineering Design Project and it leverages cutting-edge technology to capture 360-degree scans of environments, creating precise 3D models.
 
